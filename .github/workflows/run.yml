@@ -1,4 +1,6 @@
 name: 签到
+env:
+  MUSIC_U_COOKIE: ${{ secrets.MUSIC_U }}
 
 on:
   workflow_dispatch:

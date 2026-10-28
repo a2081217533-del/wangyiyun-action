@@ -1,7 +1,6 @@
 name: 签到
 
 on:
-  workflow_dispatch:
   push:
     branches: [ master ]
   pull_request:
